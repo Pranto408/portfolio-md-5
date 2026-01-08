@@ -21,6 +21,10 @@
 header{
     background-color: #FFF8F3;
     padding-top: 50px;
+    background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: 25px 38px, bottom right;
+    margin-bottom: 130px;
 }
 nav{
     width: 71%;
@@ -49,4 +53,49 @@ nav .nav-item a{
     text-decoration: none;
     font-size: 20px;
     color: #474747;
+}
+#banner{
+    margin: 38px 30px 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    max-width: 585px;
+}
+.banner-content h3{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #181818;
+}
+.btn-container{
+    display: flex;
+    gap: 30px;
+}
+.banner-content p{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+.white-btn{
+    padding: 18px 35px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FD6E0A;
+    cursor: pointer;
+    background-color: #FFF8F3;
+}
+.banner-img img{
+    max-width: 585px;
+    vertical-align: middle;
 }
