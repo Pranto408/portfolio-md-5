@@ -171,3 +171,49 @@ nav .nav-item a{
     font-size: 16px;
     line-height: 28px;
 }
+
+#resume .section-heading h2{
+    margin-bottom: 113px;
+}
+.resume-container{
+    width: 75%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 31px;
+    margin-bottom: 50px;
+
+}
+.education h2, .experience h2{
+    color: #474747;
+    font-size: 30px;
+    font-weight: bold;
+}
+.resume-card{
+    padding: 30px 0;
+}
+.resume-card h3{
+    color: #474747;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.resume-card h6{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume-card p{
+    color: #757575;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 28px;
+}
+hr{
+    color: #D1D1D1;   
+}
+.text-center{
+    text-align: center;
+    margin-bottom: 113px;
+}
